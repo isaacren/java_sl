@@ -1,0 +1,16 @@
+public class Test{
+final int value = 10;
+// 下面是声明常量的实例
+public static final int BOXWIDTH = 6;
+static final String TITLE = "Manager";
+public void getTitle(){
+System.out.println("职位为："+TITLE)}；
+public void getValue(){
+System.out.println("数量为："+value); //将输出value的值
+}
+ public static void main(String[] args){
+ 	Test a = new Test();
+ 	a.getTitle();
+ 	a.getValue();
+ }
+}
